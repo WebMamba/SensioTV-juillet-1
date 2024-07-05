@@ -1,0 +1,22 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors~app~user_sidebar.js",
+        "/build/vendors~app.js",
+        "/build/app.js"
+      ],
+      "css": [
+        "/build/app.css"
+      ]
+    },
+    "user_sidebar": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors~app~user_sidebar.js",
+        "/build/user_sidebar.js"
+      ]
+    }
+  }
+}
